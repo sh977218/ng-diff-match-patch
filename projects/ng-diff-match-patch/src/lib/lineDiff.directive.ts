@@ -6,8 +6,8 @@ import { Diff, DiffOp } from './diffMatchPatch';
   selector: '[lineDiff]',
 })
 export class LineDiffDirective implements OnInit, OnChanges {
-  @Input() left: string | number | boolean;
-  @Input() right: string | number | boolean;
+  @Input() left: string | number | boolean = '';
+  @Input() right: string | number | boolean = '';
 
   public constructor(
     private el: ElementRef,
