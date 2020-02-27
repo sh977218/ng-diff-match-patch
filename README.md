@@ -19,7 +19,6 @@ In order to use these directives you'll first have to import them from the modul
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 // import our necessary module and components here 
 import { DiffMatchPatchModule } from 'cde-diff-match-patch';
@@ -31,7 +30,6 @@ import { DiffMatchPatchModule } from 'cde-diff-match-patch';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
     DiffMatchPatchModule
   ],
   providers: [  ],
