@@ -1,5 +1,5 @@
 /*
- * Public API Surface of ng-diff-match-patch
+ * Public API Surface of cde-diff-match-patch
  */
 
 export * from './lib/diffMatchPatch.service';

@@ -1,14 +1,14 @@
-Ng-Diff-Match-Patch
+cde-diff-match-patch
 =====================
 
-[![Build Status](https://travis-ci.org/elliotforbes/ng-diff-match-patch.svg?branch=master)](https://travis-ci.org/elliotforbes/ng-diff-match-patch)
+[![Build Status](https://travis-ci.org/sh977218/cde-diff-match-patch.svg?branch=master)](https://travis-ci.org/sh977218/cde-diff-match-patch)
 
 This is a port of the [angular-diff-match-patch](https://github.com/amweiss/angular-diff-match-patch) wrapper for AngularJS. 
 
 ## Installation
 
 ~~~
-npm install ng-diff-match-patch --save-dev
+npm install cde-diff-match-patch --save-dev
 ~~~
 
 ## Usage
@@ -22,7 +22,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 // import our necessary module and components here 
-import { DiffMatchPatchModule } from 'ng-diff-match-patch';
+import { DiffMatchPatchModule } from 'cde-diff-match-patch';
 
 @NgModule({
   declarations: [
@@ -60,7 +60,7 @@ Remember to add ```DiffMatchPatchModule``` to your imports array in @NgModule
 
 This should produce something like so:
 
-![ng-diff-match-patch](https://tutorialedge.net/uploads/ngDiffMatchPatchv3.png)
+![cde-diff-match-patch](https://tutorialedge.net/uploads/ngDiffMatchPatchv3.png)
 
 
 ### CSS Styles:

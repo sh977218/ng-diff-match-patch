@@ -1,5 +1,5 @@
 {
-  "name": "ng-diff-match-patch",
+  "name": "cde-diff-match-patch",
   "version": "3.0.0",
   "description": "A Diff-Match-Patch component for your Angular 2 + applications",
   "main": "diffMatchPatch.bundle.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/elliotforbes/ng-diff-match-patch"
+    "url": "https://github.com/sh977218/cde-diff-match-patch"
   },
   "keywords": [
     "Angular2",
@@ -23,12 +23,12 @@
   "author": "Elliot Forbes",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/elliotforbes/ng-diff-match-patch/issues"
+    "url": "https://github.com/sh977218/cde-diff-match-patch/issues"
   },
   "contributors": [
     "Anders Törnkvist (https://github.com/AndersTornkvist)"
   ],
-  "homepage": "https://github.com/elliotforbes/ng-diff-match-patch#readme",
+  "homepage": "https://github.com/sh977218/cde-diff-match-patch#readme",
   "peerDependencies": {
     "@angular/common": ">=2.0.0",
     "@angular/core": ">=2.0.0"

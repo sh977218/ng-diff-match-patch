@@ -1,5 +1,5 @@
 {
-  "name": "ng-diff-match-patch",
+  "name": "cde-diff-match-patch",
   "version": "3.0.0",
   "description": "A Diff-Match-Patch component for your Angular 2 + applications",
   "main": "diffMatchPatch.bundle.js",
@@ -9,16 +9,16 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "rm -rf dist/ && ng build ng-diff-match-patch --prod",
-    "publish": "npm run build && npm publish dist/ng-diff-match-patch",
-    "test": "ng test ng-diff-match-patch --watch=false",
+    "build": "rm -rf dist/ && ng build cde-diff-match-patch --prod",
+    "publish": "npm run build && npm publish dist/cde-diff-match-patch",
+    "test": "ng test cde-diff-match-patch --watch=false",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "npmpublish": "npm run build && npm publish dist/ng-diff-match-patch"
+    "npmpublish": "npm run build && npm publish dist/cde-diff-match-patch"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/elliotforbes/ng-diff-match-patch"
+    "url": "https://github.com/sh977218/cde-diff-match-patch"
   },
   "keywords": [
     "Angular2",
@@ -28,9 +28,9 @@
   "author": "Elliot Forbes",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/elliotforbes/ng-diff-match-patch/issues"
+    "url": "https://github.com/sh977218/cde-diff-match-patch/issues"
   },
-  "homepage": "https://github.com/elliotforbes/ng-diff-match-patch#readme",
+  "homepage": "https://github.com/sh977218/cde-diff-match-patch#readme",
   "dependencies": {
     "@angular/common": "^6.0.3",
     "@angular/core": "^6.0.3",

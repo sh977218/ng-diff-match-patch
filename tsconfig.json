@@ -17,11 +17,11 @@
       "dom"
     ],
     "paths": {
-      "ng-diff-match-patch": [
-        "dist/ng-diff-match-patch"
+      "cde-diff-match-patch": [
+        "dist/cde-diff-match-patch"
       ],
-      "ng-diff-match-patch/*": [
-        "dist/ng-diff-match-patch/*"
+      "cde-diff-match-patch/*": [
+        "dist/cde-diff-match-patch/*"
       ]
     }
   }
